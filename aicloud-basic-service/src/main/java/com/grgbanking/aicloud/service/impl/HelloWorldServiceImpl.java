@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class HelloWorldServiceImpl implements HelloWorldService {
-    public String index() {
-        return "ABC";
+    public String name(String name) {
+        return name;
     }
 }

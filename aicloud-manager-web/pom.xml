@@ -26,8 +26,17 @@
     <dependencies>
         <dependency>
             <groupId>com.grgbanking</groupId>
+            <artifactId>aicloud-basic-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.grgbanking</groupId>
             <artifactId>aicloud-basic-service</artifactId>
             <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
