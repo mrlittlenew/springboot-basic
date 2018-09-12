@@ -8,12 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.grgbanking.aicloud.mapper")
-public class AiCloudRESTApplication {
+public class AiCloudRestApplication {
 
-    private final static Logger logger = LoggerFactory.getLogger(AiCloudRESTApplication.class);
+    private final static Logger logger = LoggerFactory.getLogger(AiCloudRestApplication.class);
 
     public static void main(String[] args) {
         logger.info("start app");
-		SpringApplication.run(AiCloudRESTApplication.class, args);
+		SpringApplication.run(AiCloudRestApplication.class, args);
 	}
 }
