@@ -5,7 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.grgbanking</groupId>
-    <artifactId>aicloud-parent</artifactId>
+    <artifactId>aicloud-basic-service</artifactId>
     <version>1.0.0</version>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.grgbanking</groupId>
+            <artifactId>aicloud-basic-mapper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>

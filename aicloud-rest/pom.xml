@@ -26,7 +26,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.grgbanking</groupId>
-			<artifactId>aicloud-service</artifactId>
+			<artifactId>aicloud-basic-service</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 		<dependency>
@@ -52,12 +52,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-		<dependency>
-			<groupId>com.grgbanking</groupId>
-			<artifactId>aicloud-service</artifactId>
-			<version>1.0.0</version>
-			<scope>compile</scope>
-		</dependency>
 	</dependencies>
 	
 	<build>
